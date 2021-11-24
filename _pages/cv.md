@@ -11,30 +11,35 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. of Electronic Information Technology, Macau University of Science and Technology, 2020
+  * Mentors: Associate Professor Liang, Yanyan
+  * GPA: 3.60/4.0
+* M.S. of Machine Learning, Data Science - Artificial Intelligence, Aalto University, 2022 (expected)
+  * Mentors: Assistant Professor Pekka Marttinen
+  * GPA: 4.67/5.0
+
+Research interests
+======
+* Medical Coding, Biomedical Information, Multitask Learning, Active Learning, Medical Image Analysis, Protein Structure Prediction
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 14.06.2021 - present: Research Assistant
+  * HUS Helsinki University Hospital
+  * Duties included: Information Extraction from Clinical Text
+  * Supervisor: Dr. Miika Koskinen
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Language
+  * Python, R, Matlab, C, pyspark, spark
+* Deep Learning Framework
+  * Pytorch, Tensorflow
+* Operation System
+  * Linux Server
+  * Databricks
+* Language 
+  * English
 
 Publications
 ======
@@ -42,18 +47,3 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
