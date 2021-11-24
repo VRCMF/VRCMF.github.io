@@ -22,6 +22,12 @@ Research interests
 ======
 * Medical Coding, Biomedical Information, Multitask Learning, Active Learning, Medical Image Analysis, Protein Structure Prediction
 
+Publications
+======
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
 Work experience
 ======
 * 06 2021 - present: Research Assistant
@@ -60,10 +66,4 @@ Skills
   * Databricks
 * Language 
   * English
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
