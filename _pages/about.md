@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of Wei Sun's personal website.
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+Wei Sun is a second year master student of the Macademia (Machine Learning, Data Science and Artificial Intelligence) in the Aalto University. 
+His current research direction is the medical NLP.
+Now, he collabrates with Helsinki University Hopsital to develop information extraction system by NLP techniques. 
+More details is on the [CV][https://vrcmf.github.io/cv/] and [Publication][https://vrcmf.github.io/publications/].
