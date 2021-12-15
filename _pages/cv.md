@@ -33,7 +33,7 @@ Work experience
 * 06 2021 - present: Research Assistant
   * Location: HUS Helsinki University Hospital
   * Duties included: Information Extraction from Clinical Text
-  * Supervisor: Associate Professor Liang
+  * Employer: Miika Koskinen (Development Manager at HUS)
 
 Research experience
 ======
