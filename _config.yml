@@ -81,12 +81,12 @@ analytics:
 # Site Author
 author:
   name             : "Wei Sun"
-  avatar           : "profile.png"
+  avatar           : "1.png"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Espoo, Finland"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "s872078724@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
