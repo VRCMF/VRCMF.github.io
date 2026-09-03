@@ -15,6 +15,7 @@
   year: 2026
   title: Event Interaction in Low-Rank Bottlenecks for Temporal Relation Extraction
   title_zh: 面向时序关系抽取的低秩瓶颈事件交互
+  authors: Wei Sun, Tingyu Qu, Jesse Davis, Marie-Francine Moens
   venue: TACL · 2026
   status: accepted
   selected: true
