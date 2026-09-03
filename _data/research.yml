@@ -106,7 +106,7 @@
   title: Weak Supervision and Clustering-Based Sample Selection for Clinical Named Entity Recognition
   title_zh: 临床命名实体识别中的弱监督与基于聚类的样本选择
   authors: Wei Sun, Shaoxiong Ji, Tuulia Denti, Hans Moen, Oleg Kerro, Antti Rannikko, Pekka Marttinen, Miika Koskinen
-  venue: ECML PKDD 2023
+  venue: ECML 2023
   url: https://link.springer.com/chapter/10.1007/978-3-031-43427-3_27
   summary:
     en: Combines medical ontologies, domain adaptation, and representative sample selection for clinical NER with limited annotations.
@@ -148,7 +148,7 @@
   title: Multitask Recalibrated Aggregation Network for Medical Code Prediction
   title_zh: 面向医疗编码预测的多任务重校准聚合网络
   authors: Wei Sun, Shaoxiong Ji, Erik Cambria, Pekka Marttinen
-  venue: ECML PKDD 2021
+  venue: ECML 2021
   url: https://link.springer.com/chapter/10.1007/978-3-030-86514-6_23
   preprint: https://arxiv.org/abs/2104.00952
   summary:
