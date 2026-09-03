@@ -1,0 +1,20 @@
+<section class="biography" aria-label="{{ t.home }}">
+  <p>{{ t.bio }}</p>
+  <p>{{ t.graduation }}{% if lang == "zh" %}。{% else %}.{% endif %}</p>
+  <p>{{ t.background }}</p>
+</section>
+<section class="section interests" id="research">
+  <div class="section-heading"><h2>{{ t.research }}</h2></div>
+  <ul>{% for item in t.interests %}<li><strong>{{ item.title }}</strong>: {{ item.text }}</li>{% endfor %}</ul>
+</section>
+<section class="section" id="selected-research">
+  <div class="section-heading"><h2>{{ t.selected }}</h2><a href="{{ prefix | append: '/publications/' | relative_url }}">{{ t.all_publications }} <span aria-hidden="true">→</span></a></div>
+  {% assign selected = site.data.research | where: 'selected', true %}
+  {% for paper in selected %}{% include academic-paper.html paper=paper %}{% endfor %}
+</section>
+{% include academic-projects.html %}
+<section class="section contact" id="contact">
+  <div class="section-heading"><h2>{{ t.contact }}</h2></div>
+  <p>{{ t.contact_text }}</p>
+  <a class="contact-email" href="mailto:{{ site.author.email }}">{{ site.author.email }} <span aria-hidden="true">↗</span></a>
+</section>

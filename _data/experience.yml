@@ -1,0 +1,73 @@
+education:
+  - period: 2022.10 — 2027.01
+    expected: true
+    en:
+      school: KU Leuven
+      degree: PhD in Computer Science
+      advisor: Marie-Francine Moens
+    zh:
+      school: 鲁汶大学
+      degree: 计算机科学博士
+      advisor: Marie-Francine Moens 教授
+  - period: 2020.06 — 2022.09
+    en:
+      school: Aalto University
+      degree: MSc in Computer Science
+      advisor: Pekka Marttinen
+    zh:
+      school: 阿尔托大学
+      degree: 计算机科学硕士
+      advisor: Pekka Marttinen 教授
+  - period: 2016.09 — 2020.06
+    en:
+      school: Macau University of Science and Technology
+      degree: BSc in Electronic Information Technology
+      advisor: Yanyan Liang
+    zh:
+      school: 澳门科技大学
+      degree: 电子信息学士
+      advisor: 梁延研教授
+projects:
+  - name: AIDAVA
+    url: https://www.aidava.eu/about/partners/kul
+    en:
+      title: Medical language models & multilingual information extraction
+      description: Led research on medical language model pretraining and information extraction, from domain knowledge integration and parameter-efficient adaptation to multilingual temporal relation modeling and evaluation.
+    zh:
+      title: 医疗语言模型与多语言信息抽取
+      description: 主导医疗语言模型预训练与信息抽取方向研发，涵盖领域知识整合、参数高效适配、多语言时序关系建模与评测。
+  - name: ANTIDOTE
+    url: https://univ-cotedazur.eu/antidote/people
+    en:
+      title: Evidence-based explanations for medical AI
+      description: Led method development for medical evidence retrieval, question answering, and explanation generation. Developed weakly supervised argument mining to structure claims, evidence, and their relations.
+    zh:
+      title: 基于证据的可解释医疗人工智能
+      description: 主导医疗证据检索、问答预测与解释生成的方法研发，设计弱监督论辩挖掘方法，对论点、证据及其关系进行结构化建模。
+  - name: INTERVENE
+    url: https://www.interveneproject.eu/team-1
+    en:
+      title: Clinical information extraction with limited supervision
+      description: Led low-resource information extraction research for Finnish clinical text, using medical ontologies to construct weak supervision and develop domain-adapted named entity recognition models.
+    zh:
+      title: 低资源临床信息抽取
+      description: 主导面向芬兰语临床文本的低资源信息抽取研究，利用医学本体构建弱监督信号，开发经过领域适配的命名实体识别模型。
+skills:
+  - en:
+      title: Model development
+      text: Python, PyTorch, Hugging Face Transformers; medical model training, evaluation, and deployment.
+    zh:
+      title: 模型开发
+      text: Python、PyTorch、Hugging Face Transformers；医疗模型训练、评测与部署。
+  - en:
+      title: Language model adaptation
+      text: Adapter and LoRA fine-tuning, prompt engineering, knowledge editing, and inference-time intervention.
+    zh:
+      title: 大模型适配
+      text: Adapter 与 LoRA 微调、提示工程、知识编辑与推理时干预。
+  - en:
+      title: Efficient training & clinical applications
+      text: Familiarity with DeepSpeed and distributed training; collaboration with clinicians on medical AI applications.
+    zh:
+      title: 高效训练与临床应用
+      text: 了解 DeepSpeed 与分布式训练；与医生合作开发和完善医疗人工智能应用。

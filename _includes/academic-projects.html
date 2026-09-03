@@ -1,0 +1,12 @@
+<section class="section" id="projects">
+  <div class="section-heading"><h2>{{ t.projects }}</h2></div>
+  <p class="section-intro">{{ t.project_intro }}</p>
+  <div class="projects-list">
+    {% for project in site.data.experience.projects %}
+    <article class="project">
+      <a class="project-name" href="{{ project.url }}">{{ project.name }} <span aria-hidden="true">↗</span></a>
+      <div><h3>{{ project[lang].title }}</h3><p>{{ project[lang].description }}</p></div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

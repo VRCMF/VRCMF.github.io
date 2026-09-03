@@ -1,0 +1,155 @@
+- id: cif
+  year: 2026
+  title: Cross-lingual Representation Learning via Centroid Intervention Fusion
+  title_zh: 通过质心干预融合实现跨语言表示学习
+  authors: Wei Sun, Marie-Francine Moens
+  venue: EMNLP 2026 · Main
+  status: accepted
+  selected: true
+  url: https://arxiv.org/abs/2608.26357
+  repository: https://github.com/VRCMF/CIF
+  summary:
+    en: Fuses multilingual intervention projections into a shared operator to improve cross-lingual transfer without updating model parameters.
+    zh: 将多语言干预投影融合为共享算子，无需更新模型参数，即可提升跨语言迁移能力。
+- id: temporal
+  year: 2026
+  title: Event Interaction in Low-Rank Bottlenecks for Temporal Relation Extraction
+  title_zh: 面向时序关系抽取的低秩瓶颈事件交互
+  venue: TACL · 2026
+  status: accepted
+  selected: true
+  source: Wei_CV.pdf and author confirmation, September 2026; accepted, public paper URL not yet available.
+  summary:
+    en: Models event-pair interactions inside low-rank bottlenecks for temporal relation extraction with Adapter and LoRA fine-tuning.
+    zh: 在低秩瓶颈内显式建模事件对交互，通过 Adapter 与 LoRA 微调提升时序关系抽取能力。
+- id: weak-am
+  year: 2026
+  title: Weakly-supervised Argument Mining with Boundary Refinement and Relation Denoising
+  title_zh: 基于边界精修与关系去噪的弱监督论辩挖掘
+  authors: Wei Sun, Mingxiao Li, Jesse Davis, Elena Cabrio, Serena Villata, Marie-Francine Moens
+  venue: FEVER 2026 · pp. 1–12
+  url: https://aclanthology.org/2026.fever-1.1/
+  summary:
+    en: Refines component boundaries and denoises relations in LLM-generated labels, matching fully supervised argument mining with less than 20% of the human annotations.
+    zh: 精修论辩组件边界，并对大模型标注的关系去噪，使用不到 20% 的人工标注数据即可达到全监督模型的相当表现。
+- id: langedit
+  year: 2025
+  title: Mitigating Negative Interference in Multilingual Sequential Knowledge Editing through Null-Space Constraints
+  title_zh: 利用零空间约束缓解多语言连续知识编辑中的负干扰
+  authors: Wei Sun, Tingyu Qu, Mingxiao Li, Jesse Davis, Marie-Francine Moens
+  venue: Findings of ACL 2025 · pp. 8796–8810
+  selected: true
+  url: https://aclanthology.org/2025.findings-acl.460/
+  code: https://github.com/VRCMF/LangEdit
+  summary:
+    en: LangEdit constrains sequential knowledge updates in null spaces to reduce interference across languages and previously edited knowledge.
+    zh: LangEdit 将连续知识更新约束在零空间中，缓解不同语言之间以及新旧编辑知识之间的相互干扰。
+- id: emin
+  year: 2025
+  title: Generating Explanations in Medical Question-Answering by Expectation Maximization Inference over Evidence
+  title_zh: 通过证据上的期望最大化推理生成医疗问答解释
+  authors: Wei Sun, Mingxiao Li, Damien Sileo, Jesse Davis, Marie-Francine Moens
+  venue: ACM Transactions on Computing for Healthcare · 6(2)
+  selected: true
+  url: https://doi.org/10.1145/3712296
+  preprint: https://arxiv.org/abs/2310.01299
+  summary:
+    en: Jointly learns evidence selection, answer prediction, and explanation generation using expectation maximization over medical evidence.
+    zh: 基于医学证据进行期望最大化推理，联合学习证据选择、答案预测与自然语言解释生成。
+- id: dmon
+  year: 2024
+  title: 'DMON: A Simple Yet Effective Approach for Argument Structure Learning'
+  title_zh: DMON：一种简单而有效的论辩结构学习方法
+  authors: Wei Sun, Mingxiao Li, Jingyuan Sun, Jesse Davis, Marie-Francine Moens
+  venue: LREC-COLING 2024 · pp. 5109–5118
+  url: https://aclanthology.org/2024.lrec-main.455/
+  summary:
+    en: A dual-tower, multi-scale convolutional network captures argument relations and document-level argumentative structure.
+    zh: 利用双塔多尺度卷积网络建模论点之间的关系，捕捉文档级论辩结构。
+- id: medical-review
+  year: 2024
+  title: A Unified Review of Deep Learning for Automated Medical Coding
+  title_zh: 自动医疗编码深度学习方法的统一综述
+  authors: Shaoxiong Ji, X. Li, Wei Sun, et al.
+  venue: ACM Computing Surveys · 56(12)
+  url: https://arxiv.org/abs/2201.02797
+  summary:
+    en: Organizes medical coding models into a unified framework of encoders, deep architectures, decoders, and auxiliary information.
+    zh: 从编码器、深层架构、解码器与辅助信息四个维度，统一梳理自动医疗编码模型。
+- id: diffusion
+  year: 2024
+  title: Alleviating Exposure Bias in Diffusion Models through Sampling with Shifted Time Steps
+  title_zh: 通过时间步偏移采样缓解扩散模型的暴露偏差
+  authors: Mingxiao Li, Tingyu Qu, Ruicong Yao, Wei Sun, Marie-Francine Moens
+  venue: ICLR 2024
+  url: https://arxiv.org/abs/2305.15583
+  summary:
+    en: Introduces a time-shift sampling method that reduces exposure bias in diffusion models with little additional computation.
+    zh: 通过时间步偏移采样，以较低的额外计算开销缓解扩散模型的暴露偏差。
+- id: antidote-paper
+  year: 2024
+  title: 'ANTIDOTE: ArgumeNtaTIon-Driven explainable artificial intelligence fOr digiTal mEdicine'
+  title_zh: ANTIDOTE：面向数字医疗的论辩驱动可解释人工智能
+  authors: C. Cardellino, T. Collias, B. Molinet, E. Hain, Wei Sun, et al.
+  venue: ECAI 2024
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ywVkZ8kAAAAJ&citation_for_view=ywVkZ8kAAAAJ:roLk4NBRz8UC
+- id: topics
+  year: 2024
+  title: Using Unsupervised Topic Modeling to Uncover Document Hierarchy and Latent Topics in Prostate Cancer Clinical Texts
+  title_zh: 利用无监督主题建模发现前列腺癌临床文本的文档层次与潜在主题
+  authors: Tuulia Denti, Wei Sun, Shaoxiong Ji, et al.
+  venue: medRxiv · Preprint
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ywVkZ8kAAAAJ&citation_for_view=ywVkZ8kAAAAJ:W7OEmFMy1HYC
+- id: clinical-ner
+  year: 2023
+  title: Weak Supervision and Clustering-Based Sample Selection for Clinical Named Entity Recognition
+  title_zh: 临床命名实体识别中的弱监督与基于聚类的样本选择
+  authors: Wei Sun, Shaoxiong Ji, Tuulia Denti, Hans Moen, Oleg Kerro, Antti Rannikko, Pekka Marttinen, Miika Koskinen
+  venue: ECML PKDD 2023 · pp. 444–459
+  url: https://link.springer.com/chapter/10.1007/978-3-031-43427-3_27
+  summary:
+    en: Combines medical ontologies, domain adaptation, and representative sample selection for clinical NER with limited annotations.
+    zh: 结合医学本体、领域适配与代表性样本选择，降低临床实体识别对人工标注的依赖。
+- id: content-reduction
+  year: 2023
+  title: Content Reduction, Surprisal and Information Density Estimation for Long Documents
+  title_zh: 长文档的内容压缩、惊异度与信息密度估计
+  authors: Shaoxiong Ji, Wei Sun, Pekka Marttinen
+  venue: arXiv · Preprint
+  url: https://arxiv.org/abs/2309.06009
+- id: code-explainability
+  year: 2023
+  title: Towards Explainability in Automated Medical Code Prediction from Clinical Records
+  title_zh: 面向临床记录自动医疗编码预测的可解释性研究
+  authors: Kanimozhi Uma, Sumam Francis, Wei Sun, Marie-Francine Moens
+  venue: Intelligent Systems Conference · pp. 593–637
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ywVkZ8kAAAAJ&citation_for_view=ywVkZ8kAAAAJ:YsMSGLbcyi4C
+- id: marn
+  year: 2022
+  title: Multitask Balanced and Recalibrated Network for Medical Code Prediction
+  title_zh: 面向医疗编码预测的多任务平衡与重校准网络
+  authors: Wei Sun, Shaoxiong Ji, Erik Cambria, Pekka Marttinen
+  venue: ACM TIST · 14(1) · Online 2022
+  url: https://doi.org/10.1145/3563041
+  preprint: https://arxiv.org/abs/2109.02418
+  summary:
+    en: Extends multitask medical coding with feature recalibration and focal loss to address noisy clinical notes and imbalanced codes.
+    zh: 结合多任务学习、特征重校准与焦点损失，应对临床文本噪声及医疗编码类别不平衡问题。
+- id: thesis
+  year: 2022
+  title: Extracting Medical Entities from Radiology Reports with Ontology-Based Distant Supervision
+  title_zh: 基于本体远程监督的放射学报告医学实体抽取
+  authors: Wei Sun
+  venue: Master's thesis · Aalto University
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ywVkZ8kAAAAJ&citation_for_view=ywVkZ8kAAAAJ:2osOgNQ5qMEC
+- id: mtram
+  year: 2021
+  title: Multitask Recalibrated Aggregation Network for Medical Code Prediction
+  title_zh: 面向医疗编码预测的多任务重校准聚合网络
+  authors: Wei Sun, Shaoxiong Ji, Erik Cambria, Pekka Marttinen
+  venue: ECML PKDD 2021
+  url: https://link.springer.com/chapter/10.1007/978-3-030-86514-6_23
+  preprint: https://arxiv.org/abs/2104.00952
+  summary:
+    en: MT-RAM jointly predicts ICD and CCS codes, sharing information across coding systems and aggregating features from lengthy clinical notes.
+    zh: MT-RAM 联合预测 ICD 与 CCS 编码，在不同编码系统间共享信息，并聚合长篇临床记录的多层特征。

@@ -1,0 +1,16 @@
+{% assign paper = include.paper %}
+<article class="paper" id="{{ paper.id }}">
+  <div class="paper-meta"><span>{{ paper.venue }}</span>{% if paper.status == 'accepted' %} <span class="acceptance">{{ t.accepted }}</span>{% endif %}</div>
+  <h3 class="paper-title" lang="en">{% if paper.url %}<a href="{{ paper.url | escape }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h3>
+  {% if lang == 'zh' %}<p class="paper-translation">{{ paper.title_zh }}</p>{% endif %}
+  <p class="paper-authors">{% if paper.authors %}{{ paper.authors | escape | replace: 'Wei Sun', '<strong>Wei Sun</strong>' }}{% else %}{{ t.first_author }}{% endif %}</p>
+  {% if paper.summary %}<p class="paper-summary">{{ paper.summary[lang] }}</p>{% endif %}
+  {% if paper.url or paper.code or paper.preprint or paper.repository %}
+  <div class="paper-links">
+    {% if paper.url %}<a href="{{ paper.url | escape }}">{{ t.paper }} <span aria-hidden="true">↗</span></a>{% endif %}
+    {% if paper.code %}<a href="{{ paper.code }}">{{ t.code }} <span aria-hidden="true">↗</span></a>{% endif %}
+    {% if paper.repository %}<a href="{{ paper.repository }}">{{ t.repository }} <span aria-hidden="true">↗</span></a>{% endif %}
+    {% if paper.preprint %}<a href="{{ paper.preprint }}">{{ t.preprint }} <span aria-hidden="true">↗</span></a>{% endif %}
+  </div>
+  {% endif %}
+</article>

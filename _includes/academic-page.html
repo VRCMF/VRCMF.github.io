@@ -1,0 +1,10 @@
+{% assign lang = page.lang | default: 'en' %}
+{% assign t = site.data.profile[lang] %}
+{% assign prefix = '' %}{% if lang == 'zh' %}{% assign prefix = '/zh' %}{% endif %}
+<div class="academic-content">
+{% case page.section %}
+{% when 'home' %}{% include academic-home.html %}
+{% when 'publications' %}{% include academic-publications.html %}
+{% when 'cv' %}{% include academic-cv.html %}
+{% endcase %}
+</div>

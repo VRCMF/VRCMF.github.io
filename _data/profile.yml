@@ -1,0 +1,96 @@
+en:
+  name: Wei Sun
+  other_name: 孙伟
+  home: About
+  publications: Publications
+  cv: CV
+  skip: Skip to content
+  role: PhD Researcher in Computer Science
+  institution: KU Leuven
+  location: Leuven, Belgium
+  graduation: Expected graduation · January 2027
+  eyebrow: MEDICAL AI · LANGUAGE MODELS
+  intro: I study how language models can understand clinical text, reason over evidence, and transfer knowledge across languages.
+  bio: I am a PhD researcher in Computer Science at KU Leuven, supervised by Prof. Marie-Francine Moens. My research connects medical natural language processing with multilingual large language models, with a focus on efficient adaptation, knowledge editing, and explainable AI.
+  background: Previously, I completed my master's degree at Aalto University under the supervision of Prof. Pekka Marttinen, and my bachelor's degree at Macau University of Science and Technology under Prof. Yanyan Liang. My work brings together method development and clinical applications through collaborations with European research projects and hospitals.
+  research: Research interests
+  interests:
+    - title: Medical language understanding
+      text: Clinical information extraction, temporal relations, and automated medical coding.
+    - title: Multilingual language models
+      text: Knowledge editing, cross-lingual transfer, and inference-time intervention.
+    - title: Efficient & explainable AI
+      text: Parameter-efficient fine-tuning, evidence-based explanations, and weakly supervised argument mining.
+  selected: Selected research
+  all_publications: All publications
+  projects: Research projects
+  project_intro: My contributions to collaborative European research projects.
+  education: Education
+  skills: Technical skills
+  contact: Get in touch
+  contact_text: For research inquiries and collaboration, please contact me by email.
+  email: Email
+  download: Download CV
+  pdf_label: Chinese · PDF
+  paper: Paper
+  code: Code
+  repository: Repository
+  preprint: Preprint
+  first_author: First-author work
+  accepted: Accepted
+  publication_intro: Publications and research, including work in medical NLP, multilingual language models, and explainable AI.
+  publication_note: See Google Scholar for citation information and the latest indexed records.
+  cv_intro: My education, research experience, and technical background.
+  advisor: Supervisor
+  scholarship: Full scholarship
+  updated: Updated September 2026
+  university_profile: University profile
+  back_top: Back to top
+zh:
+  name: 孙伟
+  other_name: Wei Sun
+  home: 关于我
+  publications: 学术论文
+  cv: 个人履历
+  skip: 跳转到正文
+  role: 计算机科学博士研究生
+  institution: 鲁汶大学 · KU Leuven
+  location: 比利时 · 鲁汶
+  graduation: 预计毕业时间 · 2027 年 1 月
+  eyebrow: 医疗人工智能 · 大语言模型
+  intro: 探索语言模型如何理解临床文本、基于证据推理，并在不同语言之间迁移知识。
+  bio: 我目前在比利时鲁汶大学（KU Leuven）攻读计算机科学博士，导师为 Marie-Francine Moens 教授。研究聚焦医疗自然语言处理与多语言大语言模型，重点关注高效适配、知识编辑与可解释人工智能。
+  background: 此前，我在阿尔托大学获得硕士学位，导师为 Pekka Marttinen 教授；在澳门科技大学获得学士学位，导师为梁延研教授。我参与多个欧洲科研项目，并与医院合作，将算法研究应用于临床信息理解与医疗人工智能系统。
+  research: 研究方向
+  interests:
+    - title: 医疗语言理解
+      text: 临床信息抽取、时序关系建模与自动医疗编码。
+    - title: 多语言大语言模型
+      text: 知识编辑、跨语言迁移与推理时干预。
+    - title: 高效与可解释人工智能
+      text: 参数高效微调、基于证据的解释生成与弱监督论辩挖掘。
+  selected: 代表性研究
+  all_publications: 查看全部论文
+  projects: 科研项目
+  project_intro: 我在欧洲合作科研项目中承担的研究工作。
+  education: 教育经历
+  skills: 专业技能
+  contact: 联系我
+  contact_text: 欢迎通过邮件交流研究问题与合作机会。
+  email: 电子邮件
+  download: 下载简历
+  pdf_label: 中文 · PDF
+  paper: 论文
+  code: 代码
+  repository: 项目仓库
+  preprint: 预印本
+  first_author: 第一作者论文
+  accepted: 已录用
+  publication_intro: 研究涵盖医疗自然语言处理、多语言大语言模型与可解释人工智能。
+  publication_note: 引用信息及最新收录记录请见 Google Scholar。
+  cv_intro: 我的教育背景、科研经历与技术能力。
+  advisor: 导师
+  scholarship: 全额奖学金
+  updated: 更新于 2026 年 9 月
+  university_profile: 学校个人页面
+  back_top: 返回顶部

@@ -1,0 +1,5 @@
+<section class="page-intro"><p>{{ t.cv_intro }}</p></section>
+{% include academic-education.html %}
+{% include academic-projects.html %}
+<section class="section" id="skills"><div class="section-heading"><h2>{{ t.skills }}</h2></div><div class="skills-list">{% for item in site.data.experience.skills %}<article><h3>{{ item[lang].title }}</h3><p>{{ item[lang].text }}</p></article>{% endfor %}</div></section>
+<section class="section"><div class="section-heading"><h2>{{ t.publications }}</h2></div><p>{{ t.publication_intro }}</p><a class="text-link" href="{{ prefix | append: '/publications/' | relative_url }}">{{ t.all_publications }} →</a></section>

@@ -1,0 +1,9 @@
+<section class="section" id="education">
+  <div class="section-heading"><h2>{{ t.education }}</h2></div>
+  {% for item in site.data.experience.education %}
+  <article class="education-item">
+    <div class="education-period">{{ item.period }}{% if item.expected %}<span>{% if lang == 'zh' %}预计{% else %}Expected{% endif %}</span>{% endif %}</div>
+    <div><h3>{{ item[lang].school }}</h3><p>{{ item[lang].degree }}</p><p class="muted">{{ t.advisor }}: {{ item[lang].advisor }}<br>{{ t.scholarship }}</p></div>
+  </article>
+  {% endfor %}
+</section>

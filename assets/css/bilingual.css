@@ -1,0 +1,38 @@
+/* Small additions to the existing AcademicPages theme. */
+.masthead__menu { display: flex; align-items: center; gap: 1em; }
+.masthead__menu .greedy-nav { flex: 1; min-width: 0; }
+.language-switch { display: flex; flex-shrink: 0; border: 1px solid #d3d6d8; border-radius: 4px; overflow: hidden; }
+.language-switch a { display: block; padding: .4em .75em; color: #494e52; font-size: .7em; line-height: 1.6; text-decoration: none; }
+.language-switch a[aria-current] { background: #7a8288; color: white; }
+.language-switch a:hover { background: #f2f3f3; color: #494e52; }
+.language-switch a:focus-visible { outline: 2px solid #52adc8; outline-offset: -3px; }
+.academic-content .section { margin-top: 2em; }
+.academic-content .section-heading { margin-bottom: 1em; }
+.academic-content .section-heading h2 { padding-bottom: .5em; border-bottom: 1px solid #f2f3f3; margin-bottom: .5em; }
+.academic-content .section-heading > a { font-size: .8em; }
+.academic-content .paper { margin-bottom: 1.8em; }
+.academic-content .paper-title { font-size: 1.05em; margin: .4em 0; }
+.academic-content .paper-meta { color: #7a8288; font-size: .8em; }
+.academic-content .paper-authors, .academic-content .paper-translation { font-size: .85em; margin: .4em 0; }
+.academic-content .paper-summary { font-size: .9em; margin: .5em 0; }
+.academic-content .paper-links { display: flex; flex-wrap: wrap; gap: 1em; font-size: .8em; }
+.academic-content .acceptance { display: inline-block; border: 1px solid #b6bdc1; border-radius: 3px; padding: 0 .4em; margin-left: .4em; color: #494e52; }
+.academic-content .project { margin-bottom: 1.5em; }
+.academic-content .project-name { font-weight: bold; }
+.academic-content .project h3 { font-size: 1em; margin: .5em 0; }
+.academic-content .project p { font-size: .9em; }
+.academic-content .education-item { margin: 1.5em 0; }
+.academic-content .education-period { color: #7a8288; font-size: .8em; }
+.academic-content .education-period span { margin-left: .7em; }
+.academic-content .education-item h3 { margin: .3em 0; }
+.academic-content .education-item p { margin: .3em 0; }
+.academic-content .muted { color: #7a8288; font-size: .85em; }
+.academic-content .contact-email { overflow-wrap: anywhere; }
+.academic-content .skills-list h3 { font-size: 1em; }
+.academic-content li { margin-bottom: .5em; }
+html[lang="zh-CN"] .academic-content { line-height: 1.8; }
+@media (max-width: 480px) {
+  .masthead__menu { gap: .5em; }
+  .masthead__menu-item--lg { padding-right: .5em; }
+  .language-switch a { padding: .4em .6em; }
+}

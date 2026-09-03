@@ -1,6 +1,7 @@
 # main links links
 main:
   - title: "Publications"
+    title_zh: "学术论文"
     url: /publications/
 
   #- title: "Talks"
@@ -16,6 +17,7 @@ main:
   #  url: /year-archive/
     
   - title: "CV"
+    title_zh: "个人履历"
     url: /cv/
     
   #- title: "Guide"

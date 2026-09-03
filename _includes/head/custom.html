@@ -1,6 +1,12 @@
 {% include base_path %}
 
 <!-- start custom head snippets -->
+<link rel="stylesheet" href="{{ '/assets/css/bilingual.css' | relative_url }}">
+{% if page.lang %}
+<link rel="alternate" hreflang="en" href="{{ page.route | absolute_url }}">
+<link rel="alternate" hreflang="zh-CN" href="{{ page.route | prepend: '/zh' | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ page.route | absolute_url }}">
+{% endif %}
 
 <link rel="apple-touch-icon" sizes="57x57" href="{{ base_path }}/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="60x60" href="{{ base_path }}/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
