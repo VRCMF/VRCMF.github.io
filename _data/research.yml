@@ -50,7 +50,7 @@
   title: Generating Explanations in Medical Question-Answering by Expectation Maximization Inference over Evidence
   title_zh: 通过证据上的期望最大化推理生成医疗问答解释
   authors: Wei Sun, Mingxiao Li, Damien Sileo, Jesse Davis, Marie-Francine Moens
-  venue: ACM Transactions on Computing for Healthcare · 6(2)
+  venue: ACM Transactions on Computing for Healthcare
   selected: true
   url: https://doi.org/10.1145/3712296
   preprint: https://arxiv.org/abs/2310.01299
@@ -72,7 +72,7 @@
   title: A Unified Review of Deep Learning for Automated Medical Coding
   title_zh: 自动医疗编码深度学习方法的统一综述
   authors: Shaoxiong Ji, X. Li, Wei Sun, et al.
-  venue: ACM Computing Surveys · 56(12)
+  venue: ACM Computing Surveys
   url: https://arxiv.org/abs/2201.02797
   summary:
     en: Organizes medical coding models into a unified framework of encoders, deep architectures, decoders, and auxiliary information.
@@ -130,7 +130,7 @@
   title: Multitask Balanced and Recalibrated Network for Medical Code Prediction
   title_zh: 面向医疗编码预测的多任务平衡与重校准网络
   authors: Wei Sun, Shaoxiong Ji, Erik Cambria, Pekka Marttinen
-  venue: ACM Transactions on Intelligent Systems and Technology · 14(1) · Online 2022
+  venue: ACM Transactions on Intelligent Systems and Technology
   url: https://doi.org/10.1145/3563041
   preprint: https://arxiv.org/abs/2109.02418
   summary:
