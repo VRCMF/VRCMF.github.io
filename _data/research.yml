@@ -28,7 +28,7 @@
   title: Weakly-supervised Argument Mining with Boundary Refinement and Relation Denoising
   title_zh: 基于边界精修与关系去噪的弱监督论辩挖掘
   authors: Wei Sun, Mingxiao Li, Jesse Davis, Elena Cabrio, Serena Villata, Marie-Francine Moens
-  venue: FEVER 2026 · pp. 1–12
+  venue: FEVER 2026
   url: https://aclanthology.org/2026.fever-1.1/
   summary:
     en: Refines component boundaries and denoises relations in LLM-generated labels, matching fully supervised argument mining with less than 20% of the human annotations.
@@ -38,7 +38,7 @@
   title: Mitigating Negative Interference in Multilingual Sequential Knowledge Editing through Null-Space Constraints
   title_zh: 利用零空间约束缓解多语言连续知识编辑中的负干扰
   authors: Wei Sun, Tingyu Qu, Mingxiao Li, Jesse Davis, Marie-Francine Moens
-  venue: Findings of ACL 2025 · pp. 8796–8810
+  venue: Findings of ACL 2025
   selected: true
   url: https://aclanthology.org/2025.findings-acl.460/
   code: https://github.com/VRCMF/LangEdit
@@ -62,7 +62,7 @@
   title: 'DMON: A Simple Yet Effective Approach for Argument Structure Learning'
   title_zh: DMON：一种简单而有效的论辩结构学习方法
   authors: Wei Sun, Mingxiao Li, Jingyuan Sun, Jesse Davis, Marie-Francine Moens
-  venue: LREC-COLING 2024 · pp. 5109–5118
+  venue: COLING 2024
   url: https://aclanthology.org/2024.lrec-main.455/
   summary:
     en: A dual-tower, multi-scale convolutional network captures argument relations and document-level argumentative structure.
@@ -106,7 +106,7 @@
   title: Weak Supervision and Clustering-Based Sample Selection for Clinical Named Entity Recognition
   title_zh: 临床命名实体识别中的弱监督与基于聚类的样本选择
   authors: Wei Sun, Shaoxiong Ji, Tuulia Denti, Hans Moen, Oleg Kerro, Antti Rannikko, Pekka Marttinen, Miika Koskinen
-  venue: ECML PKDD 2023 · pp. 444–459
+  venue: ECML PKDD 2023
   url: https://link.springer.com/chapter/10.1007/978-3-031-43427-3_27
   summary:
     en: Combines medical ontologies, domain adaptation, and representative sample selection for clinical NER with limited annotations.
@@ -123,14 +123,14 @@
   title: Towards Explainability in Automated Medical Code Prediction from Clinical Records
   title_zh: 面向临床记录自动医疗编码预测的可解释性研究
   authors: Kanimozhi Uma, Sumam Francis, Wei Sun, Marie-Francine Moens
-  venue: Intelligent Systems Conference · pp. 593–637
+  venue: Intelligent Systems Conference
   url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ywVkZ8kAAAAJ&citation_for_view=ywVkZ8kAAAAJ:YsMSGLbcyi4C
 - id: marn
   year: 2022
   title: Multitask Balanced and Recalibrated Network for Medical Code Prediction
   title_zh: 面向医疗编码预测的多任务平衡与重校准网络
   authors: Wei Sun, Shaoxiong Ji, Erik Cambria, Pekka Marttinen
-  venue: ACM TIST · 14(1) · Online 2022
+  venue: ACM Transactions on Intelligent Systems and Technology · 14(1) · Online 2022
   url: https://doi.org/10.1145/3563041
   preprint: https://arxiv.org/abs/2109.02418
   summary:
