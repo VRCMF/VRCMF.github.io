@@ -12,11 +12,11 @@
 .academic-content .section-heading > a { font-size: .8em; }
 .academic-content .paper { margin-bottom: 1.8em; }
 .academic-content .paper-title { font-size: 1.05em; margin: .4em 0; }
-.academic-content .paper-meta { color: #7a8288; font-size: .8em; }
+.academic-content .paper-meta { color: #494e52; font-size: 1.1em; font-weight: 700; }
 .academic-content .paper-authors, .academic-content .paper-translation { font-size: .85em; margin: .4em 0; }
 .academic-content .paper-summary { font-size: .9em; margin: .5em 0; }
 .academic-content .paper-links { display: flex; flex-wrap: wrap; gap: 1em; font-size: .8em; }
-.academic-content .acceptance { display: inline-block; border: 1px solid #b6bdc1; border-radius: 3px; padding: 0 .4em; margin-left: .4em; color: #494e52; }
+.academic-content .acceptance { display: inline-block; border: 1px solid #b6bdc1; border-radius: 3px; padding: 0 .4em; margin-left: .4em; color: #494e52; font-size: .7em; font-weight: 400; vertical-align: middle; white-space: nowrap; }
 .academic-content .project { margin-bottom: 1.5em; }
 .academic-content .project-name { font-weight: bold; }
 .academic-content .project h3 { font-size: 1em; margin: .5em 0; }
